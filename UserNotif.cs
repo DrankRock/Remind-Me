@@ -30,6 +30,8 @@ namespace RemindMeApp
             this.Text = "Top Full Width Form";
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
+
+            Text = LanguageManager.GetText("ev1", UserDataManager.GetLanguage());
         }
     }
 }

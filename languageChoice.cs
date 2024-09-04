@@ -21,6 +21,7 @@ namespace RemindMeApp
 
             btnCancel.Text = LanguageManager.GetText("cancel", Language);
             btnContinue.Text = LanguageManager.GetText("continue", Language);
+            this.StartPosition = FormStartPosition.CenterParent;
         }
 
         private void btnContinue_Click(object sender, EventArgs e)

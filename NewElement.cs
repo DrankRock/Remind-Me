@@ -30,6 +30,8 @@ namespace RemindMeApp
             lblName.Text = LanguageManager.GetText("name2", Language);
             btnCancel.Text = LanguageManager.GetText("cancel", Language);
             btnContinue.Text = LanguageManager.GetText("continue", Language);
+
+            this.StartPosition = FormStartPosition.CenterParent;
         }
 
         public void SetData(string name, DateTime dateTime)
