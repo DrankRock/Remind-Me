@@ -58,7 +58,7 @@ namespace RemindMeApp
 
             ResetStatus();
 
-            if (todayHappens.Count == 0)
+            if (UserDataManager.ReadData().Count == 0)
             {
                 this.WindowState = FormWindowState.Minimized;
             }
