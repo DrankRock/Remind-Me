@@ -44,11 +44,11 @@ Name: "german"; MessagesFile: "compiler:Languages\German.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\drank\Documents\Gits\Remind-Me\bin\Release\net8.0-windows\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\drank\Documents\Gits\Remind-Me\bin\Release\net8.0-windows\RemindMeApp.deps.json"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\drank\Documents\Gits\Remind-Me\bin\Release\net8.0-windows\RemindMeApp.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\drank\Documents\Gits\Remind-Me\bin\Release\net8.0-windows\RemindMeApp.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\drank\Documents\Gits\Remind-Me\bin\Release\net8.0-windows\RemindMeApp.runtimeconfig.json"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\drank\source\repos\RemindMeApp\bin\Release\net8.0-windows\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\drank\source\repos\RemindMeApp\bin\Release\net8.0-windows\RemindMeApp.deps.json"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\drank\source\repos\RemindMeApp\bin\Release\net8.0-windows\RemindMeApp.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\drank\source\repos\RemindMeApp\bin\Release\net8.0-windows\RemindMeApp.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\drank\source\repos\RemindMeApp\bin\Release\net8.0-windows\RemindMeApp.runtimeconfig.json"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
