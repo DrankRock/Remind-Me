@@ -63,7 +63,7 @@ namespace RemindMeApp
                 this.WindowState = FormWindowState.Minimized;
             }
 
-            this.StartPosition = FormStartPosition.CenterParent;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void ExitMenuItem_Click(object? sender, EventArgs e)
